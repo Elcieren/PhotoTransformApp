@@ -1,3 +1,5 @@
+
+![Ekran-Kaydı-2024-10-25-18 20 46](https://github.com/user-attachments/assets/53f7b244-7059-489a-85fc-4eb37c295610)
 <details>
     <summary><h2>Uygulma Amacı</h2></summary>
   Bu uygulama, kullanıcının fotoğraflarını düzenlemesine ve farklı filtreler uygulamasına olanak tanıyan temel bir fotoğraf düzenleme uygulamasıdır. Uygulama, iOS’un Core Image kütüphanesini kullanarak çeşitli filtreleri fotoğraflara uyguluyor ve sonuçları kaydedip kullanıcıya görsel olarak sunuyor. Şimdi kodun önemli kısımlarını açıklayarak uygulamanın nasıl çalıştığını adım adım inceleyelim
