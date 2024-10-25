@@ -9,7 +9,8 @@ import UIKit
 import CoreImage
 
 class ViewController: UIViewController , UIImagePickerControllerDelegate , UINavigationControllerDelegate {
-
+    @IBOutlet var changeButton: UIButton!
+    
     @IBOutlet var intensity: UISlider!
     @IBOutlet var imageView: UIImageView!
     var currentImage: UIImage!
@@ -51,7 +52,12 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate , UINav
     }
     //Kaydetme Fonksiyonu
     @IBAction func save(_ sender: Any) {
-        guard let image = imageView.image else { return }
+        guard let image = imageView.image else {
+            let alert = UIAlertController(title: "Uyari", message: "Herhang bir duzenlemis oldugunuz resim bulunmamaktadir", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Tamam", style: .cancel, handler: nil))
+            return present(alert, animated: true)
+            
+        }
         UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
         
     }
@@ -84,6 +90,7 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate , UINav
     func setFilter(action: UIAlertAction) {
         guard  currentImage != nil else { return }
         guard let actionTitle = action.title else { return }
+        changeButton.setTitle(actionTitle, for: .normal)
         
         currentFilter = CIFilter(name: actionTitle)
         let beginImage = CIImage(image: currentImage)
@@ -108,6 +115,13 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate , UINav
         if inputKeys.contains(kCIInputCenterKey){
             currentFilter.setValue(CIVector(x: currentImage.size.width / 2 , y: currentImage.size.height / 2 ), forKey: kCIInputCenterKey)
         }
+        if inputKeys.contains("inputNeutral") {
+                currentFilter.setValue(CIVector(x: 6500, y: 0), forKey: "inputNeutral")
+            }
+            if inputKeys.contains("inputTargetNeutral") {
+                let targetNeutral = intensity.value * 1000 + 5000
+                currentFilter.setValue(CIVector(x: CGFloat(targetNeutral), y: 0), forKey: "inputTargetNeutral")
+            }
         
         
         guard let outputImage = currentFilter.outputImage else { return }
