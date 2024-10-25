@@ -1,5 +1,5 @@
 ## PhotoTransform App 
-<img src="https://github.com/user-attachments/assets/53f7b244-7059-489a-85fc-4eb37c295610" alt="Ekran-Kaydı-2024-10-18" style="width:240px; height:426px;" />
+<img src="https://github.com/user-attachments/assets/53f7b244-7059-489a-85fc-4eb37c295610" alt="Ekran-Kaydı-2024-10-18" style="width:240px; height:526px;" />
 
 <details>
     <summary><h2>Uygulma Amacı</h2></summary>
