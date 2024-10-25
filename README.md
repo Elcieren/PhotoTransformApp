@@ -213,11 +213,31 @@
     <tr>
         <td style="text-align: center; width: 16.67%;">
             <h4 style="font-size: 14px;">Kullanuici Arayuz</h4>
-            <img src="https://github.com/user-attachments/assets/edbdbfd9-d8ef-422e-88ff-a344bc74c808" style="width: 100%; height: auto;">
+            <img src="https://github.com/user-attachments/assets/3e8b49b7-6d0c-40d4-a512-4fce6acd30fc" style="width: 100%; height: auto;">
         </td>
         <td style="text-align: center; width: 16.67%;">
-            <h4 style="font-size: 14px;">Duzeltme ve Silme Islemi</h4>
-            <img src="https://github.com/user-attachments/assets/1ffea39a-680a-4135-a3e9-321b8bb5e066" style="width: 100%; height: auto;">
+            <h4 style="font-size: 14px;">Fotograf Albume Erisim</h4>
+            <img src="https://github.com/user-attachments/assets/7ebdb9f5-3dea-4809-bac6-03360f102400" style="width: 100%; height: auto;">
+        </td>
+        <td style="text-align: center; width: 16.67%;">
+            <h4 style="font-size: 14px;">Secilen Gorsel Editleme</h4>
+            <img src="https://github.com/user-attachments/assets/9da7c3b6-6e8a-4429-a4d8-8e71dc4e4827" style="width: 100%; height: auto;">
+        </td>
+        <td style="text-align: center; width: 16.67%;">
+            <h4 style="font-size: 14px;">Secilen gorselin deger kadar  Filtre Uygulanmis hali</h4>
+            <img src="https://github.com/user-attachments/assets/837c4f03-6370-4835-97a0-83b76f7bb890" style="width: 100%; height: auto;">
+        </td>
+        <td style="text-align: center; width: 16.67%;">
+            <h4 style="font-size: 14px;">Secilen gorselin deger kadar Pixell Filtre Uygulanmis hali</h4>
+            <img src="https://github.com/user-attachments/assets/367e7913-6536-438a-b6e4-ca8d7738b3fd" style="width: 100%; height: auto;">
+        </td>
+        <td style="text-align: center; width: 16.67%;">
+            <h4 style="font-size: 14px;">Filtre uygulanan gorselin kaydetme islemi</h4>
+            <img src="https://github.com/user-attachments/assets/8b348947-f0b8-4b5a-9d0f-e40a7c811960" style="width: 100%; height: auto;">
+        </td>
+        <td style="text-align: center; width: 16.67%;">
+            <h4 style="font-size: 14px;">Gorselin Albume Kaydedilmesi </h4>
+            <img src="https://github.com/user-attachments/assets/2054eaba-177a-495a-9b41-d17a05393712" style="width: 100%; height: auto;">
         </td>
     </tr>
 </table>
